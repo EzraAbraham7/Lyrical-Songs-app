@@ -24,3 +24,14 @@ git push -u origin master
 git add .
 git commit (-m "thirdcommit" )
 git push
+
+----  after changes  ----
+git add .
+git commit (-m "message")
+           --------------
+                 ||
+                \  /
+                 \/
+              optional
+
+git push
