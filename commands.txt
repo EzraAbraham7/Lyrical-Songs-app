@@ -1,0 +1,26 @@
+PS D:\Songs> git --version
+git version 2.47.1.windows.1
+
+PS D:\Songs> git init
+
+PS D:\Songs> git add .
+PS D:\Songs> git commit -m  
+error: switch `m' requires a value
+PS D:\Songs> git commit -m secondproject
+
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+PS D:\Songs> git config --global user.email "aeabraham7@gmail.com"
+PS D:\Songs> git config --global user.name "Ezra Abraham"
+PS D:\Songs> Omit --global
+PS D:\Songs> git commit -m secondproject
+PS D:\Songs> git remote add origin https://github.com/EzraAbraham7/Lyrical-Songs-app.git
+PS D:\Songs> git push origin master
+PS D:\Songs> git remote add origin https://github.com/EzraAbraham7/Lyrical-Songs-app.git
+PS D:\Songs> git push origin master
+git push -u origin master
+git add .
+git commit (-m "thirdcommit" )
+git push
