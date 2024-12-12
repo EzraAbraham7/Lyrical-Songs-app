@@ -1,0 +1,364 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    /* Optional: Make the default right-click menu invisible */
+    /* context-menu: none; */
+    /* background-color: #000000; */
+}
+.container{
+    width: end;
+    /* height: 15vh; */
+    background-color: #43d13eb9;
+    color: rgb(79, 82, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    position: relative;
+    /* position: fixed; */
+}
+
+.navbar{
+    width: 2end;
+    height: end;
+    background-color: skyblue;
+    margin-left: 83vw;
+    margin-top: 7.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    display: none;
+    /* position: fixed; */
+}
+
+#options{
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    background-color: #0000;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    /* position: fixed; */
+}
+#options a {
+    text-decoration: none;
+}
+
+/* Style for the custom context menu */
+.custom-menu {
+    /* Initially hidden */
+    display: none; 
+    position: absolute;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    z-index: 1000;
+}
+
+.custom-menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.custom-menu li:hover {
+    background-color: #f4f4f4;
+}
+
+
+
+#bttom-navbar{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+
+.nav-items{
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.search{
+    width: 100%;
+    height: 5vh;
+    background-color: #78f1d394;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    /* position: absolute; */
+}
+.container-2{
+    width: 550px;
+    height: end;
+    
+    /* position: fixed; */
+}
+#searchInput{
+    color: #fff;
+}
+.highlight {
+    background-color: yellow;
+  }
+#searchbar{
+    display: flex;
+}
+#searchbutton{
+    width: 8.5vw;
+    height: 5vh;
+    /* margin-left: 10%;
+    display: block; */
+}
+
+.letters{
+    width: 550px;
+    height: 580px;
+    /* background-color: orangered; */
+    box-shadow: 2px 2px 5px ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    border-radius: 5px;
+    display: none;
+    /* position: fixed; */
+    
+} 
+.anchor{
+    /* margin-left: 10px; */
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.alphabets-headder{
+    display: flex;
+    flex-direction: column;
+}
+.alphabets{
+    font-size: 2.5rem;
+    margin-left: 15px;
+}
+#search-option{
+    width: 70px;
+    font-size: 2rem;
+    display: flex;
+    justify-content:right;
+    position: fixed;
+    margin-top: 65vh;
+    margin-left: 90vw;
+    border: none;
+    background-color: white;
+
+} 
+#scrool-search{
+    text-decoration: none;
+}
+
+.SongsList{
+    margin-left: 10vw;
+    font-size: 20px;
+}
+
+.song-div {
+    width: 75%;
+    background-color: #fff;
+    padding-left: 20px;
+    margin-left: 10vw;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.1);
+    /* display: none; */
+}
+
+.song-div h2 , h3 {
+    font-size: 1.6rem;
+    color: #2980b9;
+}
+
+
+.song-div p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.song-div pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: "Courier New", monospace;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+
+footer{
+    margin-top: 74.35vh;
+    /* position: fixed; */
+}
+
+#division{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    /* margin-left: -100%; */
+}
+.containerbtm{
+    width: end;
+    /* background-color:; */
+    height: 13vh;
+    position: relative;
+}
+
+@media only screen and (max-width:600px){
+    html{
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .container h1{
+        font-size: 2.4rem;
+    }
+    .search{
+        width: 300px;
+        /* display: none; */
+    }
+    #searchbutton{
+        width: 59px;
+        height: 5vh;
+    }
+
+    #search-option{
+        width: 0;
+        height: 0;
+        font-size: 2rem;
+        display: flex;
+        justify-content:right;
+        position: fixed;
+        /* margin-top: 65vh;
+        margin-left: 75vw; */
+        border: none;
+        background-color: none;
+    
+    } 
+    .song-div {
+        width: 390px;
+        background-color: #fff;
+        padding-left: 0.001px;
+        margin-left: 0px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.1);
+        /* display: none; */
+    }
+    .song-div pre {
+        width: end; /* 99vw */
+        background-color: #f4f4f4;
+        padding: 15px;
+        /* padding-right: 25px; */
+        border-radius: 5px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-family: "Courier New", monospace;
+        font-size: 15px;
+        color: #2c3e50;
+    }
+    #songtitle{
+        font-size: 1.2rem;
+    }
+    .letters{
+        width: 400px;
+        height: 100vh;
+    }
+    .SongsList{
+        margin-left: 20vw;
+        font-size: 20px;
+    }
+    
+
+    /*----------------bttom-navbar------------*/
+
+    #options{
+        display: flex;
+        width: 100%;
+        height: 7.5%;
+        background-color: red;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 0;
+        margin-top: 74vh;
+        cursor: pointer;
+        font-size: 1.5rem;
+        /* box-shadow: 2px 2px 2px 2px black; */
+        /* border-radius: 5px; */
+        position: absolute;
+        position: fixed;
+    }
+    #options a{
+        text-decoration: none;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: 15vh;
+        background-color: skyblue;
+        margin-left: 0vw;
+        margin-top: 58.9vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        display: none;
+        position: fixed;
+        
+    }
+}
