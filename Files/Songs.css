@@ -395,5 +395,6 @@ footer{
         /* background-color:; */
         height: 13vh;
         position: relative;
+        display: block;
     }
 }
