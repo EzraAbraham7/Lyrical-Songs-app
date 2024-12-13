@@ -380,7 +380,8 @@ footer{
         height: 15vh;
         background-color: skyblue;
         margin-left: 0vw;
-        margin-top: 58.9vh;
+       /* margin-top: 58.9vh;*/
+        bottom:0px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
