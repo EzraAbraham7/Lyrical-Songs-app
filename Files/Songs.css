@@ -246,7 +246,6 @@ footer{
 .copyright{
     bottom: 58px;
     font-size: 1.3rem;
-
 }
 
 
@@ -380,6 +379,8 @@ footer{
         background-color: skyblue;
         margin-left: 0vw;
         bottom: 57px;
+        /* margin-top: 58.9vh;*/
+        bottom:0px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
