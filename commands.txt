@@ -4,9 +4,7 @@ git version 2.47.1.windows.1
 PS D:\Songs> git init
 
 PS D:\Songs> git add .
-PS D:\Songs> git commit -m  
-error: switch `m' requires a value
-PS D:\Songs> git commit -m secondproject
+PS D:\Songs> git commit 
 
 
   git config --global user.email "you@example.com"
@@ -25,7 +23,12 @@ git add .
 git commit (-m "thirdcommit" )
 git push
 
-----  after changes  ----
+
+
+
+
+
+-----------------------------------  after changes  -----------------------------------
 git add .
 git commit (-m "message")
            --------------
