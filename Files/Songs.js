@@ -90,45 +90,16 @@ alert('No results found');
 }
 }
 
-/* 
-// Get the custom context menu element
-const customMenu = document.getElementById('custom-menu');
+//-------------------settings-------------------
+/*      ping button     */
 
-// Show the custom menu when right-clicking on empty space
-document.addEventListener('contextmenu', function(e) {
-    // Prevent the default right-click menu
-    e.preventDefault();
-
-    // Check if the clicked area is empty (not inside an element with content)
-    if (!e.target.closest('.content')) {
-        // Show the custom menu at the mouse position
-        customMenu.style.display = 'block';
-        customMenu.style.left = `${e.pageX}px`;
-        customMenu.style.top = `${e.pageY}px`;
-    }
-});
-
-// Hide the menu when clicking anywhere else on the page
-document.addEventListener('click', function(e) {
-    if (!customMenu.contains(e.target)) {
-        customMenu.style.display = 'none';
-    }
-});
-
-// Handle menu item click events
-document.getElementById('menu-item-1').addEventListener('click', function() {
-    alert('Option 1 clicked');
-});
-
-document.getElementById('menu-item-2').addEventListener('click', function() {
-    alert('Option 2 clicked');
-});
-
-document.getElementById('menu-item-3').addEventListener('click', function() {
-    alert('Option 3 clicked');
-});
-
-document.getElementById('menu-item-4').addEventListener('click', function() {
-    alert('Option 4 clicked');
-});
-*/
+document.getElementById('pingButton').addEventListener('click', function() {
+    // WhatsApp link format
+    var phoneNumber = '9666314814'; // Replace with your phone number, include country code but no "+" sign
+    var message = 'Hello, I would like share you about songs......!'; // Message to send
+    var whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  
+    // Open WhatsApp in a new tab or window
+    window.open(whatsappLink, '_blank');
+  });
+  

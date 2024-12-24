@@ -7,7 +7,7 @@ body{
     font-family: Arial, sans-serif;
     /* Optional: Make the default right-click menu invisible */
     /* context-menu: none; */
-    /* background-color: #000000; */
+    background-color: #5f5e5ea9;
 }
 .container{
     width: end;
@@ -57,8 +57,7 @@ body{
 }
 
 /* Style for the custom context menu */
-.custom-menu {
-    /* Initially hidden */
+/* .custom-menu {
     display: none; 
     position: absolute;
     list-style: none;
@@ -68,17 +67,17 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 200px;
     z-index: 1000;
-}
+} */
 
-.custom-menu li {
+/* .custom-menu li {
     padding: 8px 16px;
     cursor: pointer;
     transition: background-color 0.2s;
-}
+} */
 
-.custom-menu li:hover {
+/* .custom-menu li:hover {
     background-color: #f4f4f4;
-}
+} */
 
 
 
@@ -116,7 +115,7 @@ body{
     /* position: fixed; */
 }
 #searchInput{
-    color: #fff;
+    color: #000;
 }
 .highlight {
     background-color: yellow;
@@ -248,7 +247,26 @@ footer{
     font-size: 1.3rem;
 }
 
-
+/*------------------------------settings------------------------------*/
+/*    pingbutton     */
+.ping-button {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ping-button:hover {
+    background-color: #128C7E; /* Darker WhatsApp Green */
+  }
+  
+  .ping-button:focus {
+    outline: none;
+  }
 
 
 
@@ -380,7 +398,7 @@ footer{
         margin-left: 0vw;
         bottom: 57px;
         /* margin-top: 58.9vh;*/
-        bottom:0px;
+        bottom: 54px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -388,7 +406,7 @@ footer{
         position: absolute;
         display: none;
         position: fixed;
-        
+        z-index: 1;
     }
     
 }
