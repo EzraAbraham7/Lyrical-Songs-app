@@ -7,7 +7,7 @@ body{
     font-family: Arial, sans-serif;
     /* Optional: Make the default right-click menu invisible */
     /* context-menu: none; */
-    background-color: #5f5e5ea9;
+    background-color: #a5a5a5a9;
 }
 .container{
     width: end;
@@ -254,6 +254,12 @@ footer{
 
 /*------------------------------settings------------------------------*/
 /*    pingbutton     */
+
+.pcontainer{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 .ping-button {
     background-color: #25D366; /* WhatsApp Green */
     color: white;
@@ -272,6 +278,13 @@ footer{
   .ping-button:focus {
     outline: none;
   }
+
+
+
+
+
+
+
 
 
 
