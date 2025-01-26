@@ -58,7 +58,7 @@ body{
 }
 a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(73, 73, 73);
 }
 /* Style for the custom context menu */
 /* .custom-menu {
@@ -123,7 +123,7 @@ a {
 }
 .highlight {
     background-color: yellow;
-  }
+}
 #searchbar{
     display: flex;
 }
